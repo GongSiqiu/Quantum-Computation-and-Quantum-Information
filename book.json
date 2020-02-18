@@ -1,0 +1,61 @@
+{
+  "root"     : "./",
+"bookname": "Quantum Computation and Quantum Information",
+  "language" : "zh-hans",
+  "title" : "Quantum Computation and Quantum Information",
+  "author": "Gong Siqiu",
+
+    "plugins": ["mathjax","embed-pdf","-sharing", "sharing-plus","anchor-navigation-ex","expandable-chapters"],
+    "pluginsConfig": {
+ "theme-default": {
+        "showLevel": true
+    },
+
+"sharing": {
+       "douban": false,
+       "facebook": false,
+       "google": true,
+       "hatenaBookmark": false,
+       "instapaper": false,
+       "line": true,
+       "linkedin": true,
+       "messenger": false,
+       "pocket": false,
+       "qq": true,
+       "qzone": true,
+       "stumbleupon": false,
+       "twitter": false,
+       "viber": false,
+       "vk": false,
+       "weibo": true,
+       "whatsapp": false,
+       "all": [
+           "facebook", "google", "twitter",
+           "weibo", "instapaper", "linkedin",
+           "pocket", "stumbleupon"
+       ]
+   },
+ "anchor-navigation-ex": {
+           "showLevel": true,
+    "associatedWithSummary": true,
+    "printLog": false,
+    "multipleH1": false,
+    "mode": "float",
+    "showGoTop":true,
+    "float": {
+        "floatIcon": "fa fa-navicon",
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+    },
+    "pageTop": {
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+    }
+        }
+    
+}
+}
